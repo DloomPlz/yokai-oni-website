@@ -16,7 +16,7 @@ angular.module('app.controllers', [])
     $scope.pending = false;
     $scope.connected = false;
 
-    $scope.roadmap = function() {
+    $scope.whitepaper = function() {
         Swal.fire({
             toast: true,
             position: 'top-right',
@@ -25,10 +25,10 @@ angular.module('app.controllers', [])
             popup: 'colored-toast'
             },
             showConfirmButton: false,
-            timer: 15000,
+            timer: 5000,
             timerProgressBar: true,
-            icon: 'success',
-            title: 'Yokai Oni plan will be revealed soon'
+            icon: 'info',
+            title: 'Yokai Oni whitepaper will be revealed soon'
         })
     }
 
@@ -41,9 +41,9 @@ angular.module('app.controllers', [])
             popup: 'colored-toast'
             },
             showConfirmButton: false,
-            timer: 15000,
+            timer: 5000,
             timerProgressBar: true,
-            icon: 'success',
+            icon: 'info',
             title: 'Yokai Oni CA audit will arise before sunrise'
         })
     }
