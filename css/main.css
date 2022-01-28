@@ -370,6 +370,9 @@ a{
   }
 
 @media only screen and (max-width: 768px){
+  .socials{
+    flex-direction: column;
+  }
     .nav__menu {
 
         padding-left: 20px;
